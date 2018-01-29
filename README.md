@@ -1,23 +1,16 @@
 <p align="center">
   <img
-    src="http://neonexchange.org/img/NEX-logo.svg"
+    src="https://cdn1.telesco.pe/file/sOZyAXvBwCGIQbs-hTwVGmMXIN5_TiAefurFb53ARS9E3DbSCRXOHU8fttnjaR4uZmMLAj3y9lygLFQwP-oM9Lh6N-qbajJBiAi-ObrGmx8Y6HQc7inzwvnBnR51NbRTc70892e0_AwGhenJG7CVs35tbjjcUX0ubIB0iBYPaTQUOktcsYJU6eEsvqSCDZt0BpzHlQijHhVr69G99zwih_o_fJl8ctoeu8YDxfDEF6hHpeLg7lEQV3fvuHjQ0p_2v9JPFZvVZ_70iyo3E3UR3lmpymecokcvCvcWVWFSCgtVNqAdCaiw245IERDnMCb5Qit7kIl-xOoA9I4abgM37Q.jpg"
     width="125px;">
-    
 </p>
-<h3 align="center">Neo ICO Template</h3>
-<p align="center">A template for NEP5 Compliant Tokens on the NEO platform</p>
+<h3 align="center">Thor ICO Smart Contract</h3>
+<p align="center">Thor Token Offical ICO Smart Contract.</p>
+<p align="center">Based of Neo ICO Template by NEX team - https://github.com/neonexchange/neo-ico-template</p>
 <hr/>
-
-#### Considerations
-
-An article describing this template is available here:
-
-https://medium.com/neon-exchange/nex-ico-template-4ca7ba19fc8b
 
 #### Requirements
 
 Usage requires Python 3.4 or 3.5.
-
 
 #### Installation
 
@@ -47,36 +40,13 @@ The template may be compiled as follows
 ```python
 from boa.compiler import Compiler
 
-Compiler.load_and_save('ico_template.py')
+Compiler.load_and_save('ico_smart_contract.py')
 ```
 
 
-This will compile your template to `ico_template.avm`
+This will compile your template to `ico_smart_contract.avm`
 
 
-#### Testnet Deployed Details
+#### Current Status: In Progress
 
-For testing purposes, this template is deployed on testnet with the following contract script hash:
-
-`0b6c1f919e95fe61c17a7612aebfaf4fda3a2214`
-
-```json
-{
-    "code": {
-        "parameters": "0710",
-        "hash": "0b6c1f919e95fe61c17a7612aebfaf4fda3a2214",
-        "returntype": 5,
-        "script": ".. omitted .."
-    },
-    "version": 0,
-    "code_version": ".2",
-    "name": "NEX Ico Template",
-    "author": "localhuman",
-    "description": "An ICO Template",
-    "properties": {
-        "dynamic_invoke": false,
-        "storage": true
-    },
-    "email": "tom@neonexchange.org"
-}
-```
+Thor Token engineering team is actively working on the smart contract for both of the upcoming pre-sale & crowd-sale. More information regarding the KYC and Whitelist process will be annouced soon. Please join our Telegram to get the most up to date information about our progress. https://t.me/joinchat/F-UKj1Md5AilZgV9zU0Dwg

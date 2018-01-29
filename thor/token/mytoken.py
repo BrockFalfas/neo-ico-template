@@ -19,21 +19,23 @@ class Token():
 
     total_supply = 100000000 * 100000000  # 100m total supply * 10^8 ( decimals)
 
-    initial_amount = 2500000 * 100000000  # 2.5m to owners * 10^8
+    initial_amount = 25000000 * 100000000  # 25m to owners * 10^8
 
-    # for now assume 1 dollar per token, and one neo = 40 dollars * 10^8
-    tokens_per_neo = 40 * 100000000
+    # for now assume 1 dollar per token, and one neo = 160 dollars * 10^8
+    tokens_per_neo = 160 * 100000000
 
-    # for now assume 1 dollar per token, and one gas = 20 dollars * 10^8
-    tokens_per_gas = 20 * 100000000
+    # for now assume 1 dollar per token, and one gas = 55 dollars * 10^8
+    tokens_per_gas = 55 * 100000000
 
     # maximum amount you can mint in the limited round ( 500 neo/person * 40 Tokens/NEO * 10^8 )
     max_exchange_limited_round = 500 * 40 * 100000000
 
     # when to start the crowdsale
+    # To-Do: Update this block time
     block_sale_start = 875000
 
     # when to end the initial limited round
+    # To-Do: Update this block time
     limited_round_end = 875000 + 10000
 
 

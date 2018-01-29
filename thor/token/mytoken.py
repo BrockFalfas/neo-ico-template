@@ -13,6 +13,7 @@ class Token():
 
     # This is the script hash of the address for the owner of the token
     # This can be found in ``neo-python`` with the walet open, use ``wallet`` command
+    # To-do: create a owner wallet address for thor token and update here
     owner = b'\xaf\x12\xa8h{\x14\x94\x8b\xc4\xa0\x08\x12\x8aU\nci[\xc1\xa5'
 
     in_circulation_key = b'in_circulation'

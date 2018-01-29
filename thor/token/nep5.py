@@ -2,8 +2,8 @@ from boa.blockchain.vm.Neo.Runtime import CheckWitness, Notify
 from boa.blockchain.vm.Neo.Action import RegisterAction
 from boa.code.builtins import concat
 
-from nex.token.mytoken import Token
-from nex.common.storage import StorageAPI
+from thor.token.mytoken import Token
+from thor.common.storage import StorageAPI
 
 
 OnTransfer = RegisterAction('transfer', 'addr_from', 'addr_to', 'amount')

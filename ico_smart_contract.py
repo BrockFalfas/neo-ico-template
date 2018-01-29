@@ -1,21 +1,23 @@
 """
-NEX ICO Template
+Thor ICO Smart Contract
 ===================================
 
-Author: Thomas Saunders
-Email: tom@neonexchange.org
+Author: Leo Rong
+Email: leo@thortoken.com
 
-Date: Dec 11 2017
+Based on thor NEP-5 ICO template by Thomas Saunders
+
+Date: Jan 29, 2018
 
 """
 
 from boa.blockchain.vm.Neo.Runtime import GetTrigger, CheckWitness, Notify
 from boa.blockchain.vm.Neo.TriggerType import Application, Verification
-from nex.common.storage import StorageAPI
-from nex.common.txio import Attachments,get_asset_attachments
-from nex.token.mytoken import Token
-from nex.token.nep5 import NEP5Handler
-from nex.token.crowdsale import Crowdsale
+from thor.common.storage import StorageAPI
+from thor.common.txio import Attachments,get_asset_attachments
+from thor.token.mytoken import Token
+from thor.token.nep5 import NEP5Handler
+from thor.token.crowdsale import Crowdsale
 
 
 def Main(operation, args):

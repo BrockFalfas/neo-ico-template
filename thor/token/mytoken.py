@@ -20,7 +20,7 @@ class Token():
 
     total_supply = 100000000 * 100000000  # 100m total supply * 10^8 ( decimals)
 
-    initial_amount = 25000000 * 100000000  # 25m to owners * 10^8
+    initial_amount = 20000000 * 100000000  # 20m to owners * 10^8
 
     # for now assume 1 dollar per token, and one neo = 160 dollars * 10^8
     tokens_per_neo = 160 * 100000000
@@ -28,8 +28,8 @@ class Token():
     # for now assume 1 dollar per token, and one gas = 55 dollars * 10^8
     tokens_per_gas = 55 * 100000000
 
-    # maximum amount you can mint in the limited round ( 500 neo/person * 40 Tokens/NEO * 10^8 )
-    max_exchange_limited_round = 500 * 40 * 100000000
+    # maximum amount you can mint in the limited round ( 5 neo/person * 160 Tokens/NEO * 10^8 )
+    max_exchange_limited_round = 5 * 160 * 100000000
 
     # when to start the crowdsale
     # To-Do: Update this block time
@@ -37,7 +37,7 @@ class Token():
 
     # when to end the initial limited round
     # To-Do: Update this block time
-    limited_round_end = 875000 + 10000
+    limited_round_end = 875000 + 5760
 
 
     def crowdsale_available_amount(self):

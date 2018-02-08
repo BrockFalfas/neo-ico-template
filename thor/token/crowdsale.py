@@ -139,7 +139,7 @@ class Crowdsale():
 
         # if youre accepting neo, use this
 
-        if attachments.neo_attached == 0:
+        if attachments.neo_attached == 0 and attachments.gas_attached == 0:
             return False
 
         # the following looks up whether an address has been

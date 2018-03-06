@@ -5,9 +5,9 @@ class Token():
     Basic settings for an NEP5 Token and crowdsale
     """
 
-    name = 'Thor token'
+    name = 'Thor Token'
 
-    symbol = 'THR'
+    symbol = 'THOR'
 
     decimals = 8
 
@@ -21,6 +21,10 @@ class Token():
     total_supply = 100000000 * 100000000  # 100m total supply * 10^8 ( decimals)
 
     initial_amount = 80000000 * 100000000  # 50m to owners * 10^8
+
+    after_round_1_amount = 90000000 * 100000000  # After round 1 of public sale amount (25% bonus)
+
+    after_round_2_amount = 95000000 * 100000000  # After round 2 of public sale amount (10% bonus)
 
     # for now assume 1 dollar per token, and one neo = 120 dollars * 10^8
     tokens_per_neo = 120 * 100000000

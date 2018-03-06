@@ -17,7 +17,11 @@ class Crowdsale():
 
     kyc_key = b'kyc_ok'
 
-    limited_round_key = b'r1'
+    round_1_key = b'r1'
+
+    round_2_key = b'r2'
+
+    round_3_key = b'r3'
 
 
     def kyc_register(self, args, token:Token):

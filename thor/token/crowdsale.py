@@ -100,7 +100,7 @@ class Crowdsale():
         exchanged_tokens = attachments.neo_attached * token.tokens_per_neo / 100000000
 
         # if you want to exchange gas instead of neo, use this
-        # exchanged_tokens += attachments.gas_attached * token.tokens_per_gas / 100000000
+        exchanged_tokens += attachments.gas_attached * token.tokens_per_gas / 100000000
 
 
         # add it to the the exchanged tokens and persist in storage
@@ -158,7 +158,7 @@ class Crowdsale():
         amount_requested = attachments.neo_attached * token.tokens_per_neo / 100000000
 
         # this would work for accepting gas
-        # amount_requested = attachments.gas_attached * token.tokens_per_gas / 100000000
+        amount_requested += attachments.gas_attached * token.tokens_per_gas / 100000000
 
         can_exchange = self.calculate_can_exchange(token, amount_requested, attachments.sender_addr)
 

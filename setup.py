@@ -14,22 +14,21 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 
 setup(
-    name='neo-ico-template',
+    name='Thor Token',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.1.0',
+    version='1.0',
 
-    description='A Python Template for an NEP5 Token',
-    long_description=long_description,
+    description='Thor Token',
 
     # The project's main homepage.
     url='https://github.com/neonexchange/neo-ico-template',
 
     # Author details
-    author='Thomas Saunders',
-    author_email='tom@neonexchange.org',
+    author='Thor Token',
+    author_email='leo@thortoken.com',
 
     # Choose your license
     license='GPL3',
@@ -56,7 +55,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='NEP5 ICO Token NEO .avm blockchain development dApp',
+    keywords='Thor NEP5 ICO Token NEO .avm blockchain development dApp',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
